@@ -1,0 +1,57 @@
+/* CSS style page */
+
+/*
+ I put the text-align and font-family in the body class as I wanted them to be the same throughout the webpage
+*/
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  height: 150px;
+  padding: 1px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px
+}
+
+main {
+  background-color: antiquewhite;
+
+}
+
+a:link { color: blue; }
+a:visited { color: red; }
+a:hover { color: green; }
+a:active { color: pink; }
+
+footer {
+  color: antiquewhite;
+  background-color: black;
+  height: 30px;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+
+/* 
+I wanted the lists on the webpage to align on the left, as the center align contained far too much space between the bullet points/numbers and the actual list items.
+*/
+
+.list-wrapper {
+  text-align: left;
+  width: 300px;
+  margin: auto;
+}
